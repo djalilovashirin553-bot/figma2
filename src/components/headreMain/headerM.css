@@ -1,3 +1,272 @@
-h1{
-    color: red;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+.total {
+    font-family: 'Georgia', serif;
+    background-color: #f9f7f2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a3c34;
+  }
+
+  .upper {
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+  
+  .links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    background-color: #6a6e6d;
+    color: white;
+    height: 82px;
+    border-radius: 10px;
+  }
+  
+  .activ {
+    background: #e0e0e0;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+
+  .prime {
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 90px;
+  }
+  
+  .title {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .descr {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .store {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .apple, .playr {
+    background: #1a3c34;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  .apple:hover, .playr:hover {
+    transform: scale(1.05);
+    background: #255248;
+  }
+  
+  .googl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .waitl {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #888;
+  }
+ 
+  .phone img {
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  
+  .frame {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    overflow: hidden;
+  }
+  
+  .inner {
+    padding: 20px;
+    height: 100%;
+    background: linear-gradient(to bottom, #7ba08d, #ffffff);
+  }
+  
+  .water {
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .start {
+    background: #1a3c34;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+  }
+  
+  .infoo {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  .items {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .itemm {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    flex: 1;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+
+  .asosy {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .tepaa {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .sarlv {
+    font-family: serif; 
+    font-size: 48px;
+    color: #1a3c34;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
+  
+  .matnn {
+    max-width: 580px;
+    margin: 0 auto;
+    color: #707070;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .setka {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    gap: 32px; 
+  }
+  
+  .karta {
+    border-radius: 32px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  .karta:hover {
+    transform: translateY(-8px);
+  }
+  
+ 
+  .binaf { background-color: #e8eaf6; }
+  .kookk { 
+    background-color: #d1ecf7; 
+    grid-row: span 2; 
+
+  }
+  .yashl { background-color: #e3f2ed; }
+  .sarig { background-color: #f9f4e8; }
+
+  .pastt {
+    margin-top: auto; 
+  }
+  
+  .rasmm {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 20px 0;
+  }
+
+  .ikona {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .kichk {
+    font-family: serif;
+    font-size: 28px;
+    color: #1a3c34;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  
+  .izohh {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 900px) {
+    .setka {
+      grid-template-columns: 1fr;
+    }
+    .kookk {
+      grid-row: span 1;
+    }
+  }
